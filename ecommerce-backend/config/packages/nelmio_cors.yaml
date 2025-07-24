@@ -1,0 +1,10 @@
+nelmio_cors:
+  defaults:
+    allow_credentials: true
+    allow_origin: ['http://localhost:8080'] # ton frontend
+    allow_headers: ['Content-Type', 'Authorization']
+    allow_methods: ['GET', 'OPTIONS', 'POST', 'PUT', 'DELETE']
+    expose_headers: ['Link']
+    max_age: 3600
+  paths:
+    '^/': ~

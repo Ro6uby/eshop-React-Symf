@@ -1,0 +1,14 @@
+# config/packages/jwt.yaml
+jose:
+    jws:
+        loaders:
+            default:
+                signature_algorithms: ['HS256']
+        builders:
+            default:
+                signature_algorithms: ['HS256']
+    keys:
+        default:
+            jwk:
+                value: '{"kty":"oct","k":"7WSlW96jQ6zdyKLc"}'
+                is_public: true

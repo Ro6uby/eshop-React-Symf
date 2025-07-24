@@ -1,0 +1,9 @@
+# jose:
+#     key_sets:
+#         default:
+#             jwkset:
+#                 keys:
+#                     - kty: 'oct'
+#                       k: '7WSlW96jQ6zdyKLc'
+#                       value: '{"kty":"oct","k":"7WSlW96jQ6zdyKLc"}'
+#                       is_public: true
